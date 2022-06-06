@@ -114,7 +114,7 @@ node2.on('pointerdown',(e) => {loadImageFromTarget(e)});
 
 function loadImageFromTarget(e) {
     console.log(e.target.photoName);
-    viewer.setPanorama(`../../photos/${schoolName}/${e.target.photoName}.jpeg`);
+    viewer.setPanorama(`./photos/${schoolName}/${e.target.photoName}.jpeg`);
     viewer.setOption(`caption`,`${schoolName} - ${e.target.photoName}`);
 }
 
