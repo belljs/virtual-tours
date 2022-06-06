@@ -6,7 +6,7 @@ const canvas = document.getElementById('mycanvas');
 let cursorPositionX = 0;
 let cursorPositionY = 0;
 
-let schoolName = 'Facility_Name';
+let schoolName = 'facility_name';
 
 let viewer = new PhotoSphereViewer.Viewer({
     container: document.querySelector('#viewer'),
